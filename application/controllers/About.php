@@ -11,6 +11,7 @@ class About extends CI_Controller {
 	{
 		$data = [
 			'title' => 'About',
+			'ok' => 'About',
 		];
 
 		$this->load->view('content/landingpage/template/header', $data);
